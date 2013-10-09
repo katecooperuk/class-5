@@ -2,7 +2,7 @@
 	
 	class person {
 		
-		var $name = "Stefan";
+		var $name = "Stefan Mischook";
 		
 			function get_name() {
 				
