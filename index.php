@@ -13,10 +13,14 @@
 		<?php
 		
 			$stefan = new person();
+			$nick = new person();
 			
-			echo $stefan->get_name();
+			$stefan->set_name("Stefan Mischook");
+			$nick->set_name("Nick Waddles");
 			
-			
+			echo "Stefan's full name: " . $stefan->get_name();
+			echo "Nick's full name: " . $nick->get_name();
+				
 		
 		?>
 		
