@@ -23,7 +23,7 @@
 				$this->name = $persons_name;
 			}
 			
-			public function get_name() {
+			function get_name() {
 				return $this->name;
 			}
 			
@@ -48,7 +48,9 @@
 			else if ($new_name == "Johnny Fingers") {
 				// using:: allows you to specifically name the class where you want PHP to 					// search for a method - 'person::set_name()' tells PHP to search for 
 				// set_name() in the 'person' class.
-				person::set_name($new_name);
+				
+				// There is also a shortcut if you just want refer to current class's parent: 				// by using the 'parent' keyword.
+				parent::set_name($new_name);
 				
 			}
 		}
