@@ -46,6 +46,8 @@
 				$this->name = $new_name;
 			}
 			else if ($new_name == "Johnny Fingers") {
+				// using:: allows you to specifically name the class where you want PHP to 					// search for a method - 'person::set_name()' tells PHP to search for 
+				// set_name() in the 'person' class.
 				person::set_name($new_name);
 				
 			}
