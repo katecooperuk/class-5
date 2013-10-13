@@ -1,18 +1,15 @@
 <?php 
-	
 	class person {
+		var $name;
 		
-		var $name = "Stefan Mischook";
+		function set_name($new_name) {
+			$this->name = $new_name;
+		}
 		
-			function get_name() {
-				
-				return $this->name;
-			}
-		
-	}
-	
-	
-	
-	
-	
+		function get_name() {
+			return $this->name;
+		}
+	}	
+
+
 ?>
