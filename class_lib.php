@@ -41,6 +41,10 @@
 		function get_name() {
 			return $this->name;
 		}
+		
+		private function get_pin_number() {
+			return $this-$pin_number;
+		}
 	}
 	
 	// Functions = Methods
