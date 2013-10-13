@@ -34,6 +34,13 @@
 				$stefan = new person("Stefan Mischook");
 				
 				echo "Stefan's full name: " . $stefan->get_name();
+				
+				/*
+				Since $pin_number was declared private, this line of code will generate an
+				error.
+				*/
+				
+				echo "Tell me private stuff: " . $stefan->$pin_number;
 		?>
 		
 		

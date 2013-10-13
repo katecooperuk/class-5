@@ -23,6 +23,13 @@
 	class person {
 		var $name;
 		
+		// Access modifiers: public, private, protected (public is default)
+		// Note: when you declare a property with the 'var' keyword, it is considered public
+		
+		public $height;
+		protected $social_insurance;
+		private $pin_number;
+		
 		function __construct($persons_name) {
 			$this->name = $persons_name;
 		}
