@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 		<title>Killerphp.com - OOP in PHP</title>
 		
-		<?php include("class_lib.php"); ?>
+		<?php include("class_lib_1.php"); ?>
 		
 	</head>
 	
