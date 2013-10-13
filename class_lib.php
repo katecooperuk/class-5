@@ -13,7 +13,7 @@
 	}
 	*/
 	
-	// explicitily adding class properties are optional - but good practice
+	// explicitly adding class properties are optional - but good practice
 	
 	class person {
 	
@@ -23,7 +23,7 @@
 				$this->name = $persons_name;
 			}
 			
-			function get_name() {
+			public function get_name() {
 				return $this->name;
 			}
 			
@@ -44,6 +44,10 @@
 		protected function set_name($new_name) {
 			if ($new_name == "Stefan Lamp") {
 				$this->name = $new_name;
+			}
+			else if ($new_name == "Johnny Fingers") {
+				person::set_name($new_name);
+				
 			}
 		}
 		
